@@ -1,0 +1,68 @@
+/* Table.css */
+.app-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #254574;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #dce9fa;
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #707276;
+    color: #ffffff;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #ffffff;
+    color: white;
+}
+
+.data-table tr:hover {
+    background-color: #446683;
+    color: #f7f7f7;
+}
+
+.data-table td {
+    border-bottom: 1px solid #362929;
+    color: #000000;
+}
+
+.data-table th,
+td:hover {
+    border-bottom: 1px solid #362929;
+    color: white;
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #ff4d4f;
+}
+
+.error-message {
+    color: #ff4d4f;
+    text-align: center;
+}
